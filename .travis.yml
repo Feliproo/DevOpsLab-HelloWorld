@@ -19,6 +19,6 @@ script:
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 deploy:
   provider: heroku
-  api-key: 69c2bb64-a582-4db6-954d-00f663a1b030
+  api-key:
     secure: $HEROKU_API_KEY
   app: devopslabs-hello4linux
